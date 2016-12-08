@@ -1,0 +1,309 @@
+.clearfix:before, .clearfix:after{
+    content:'';
+    display:table;
+}
+.clearfix:after{clear:both;}
+.apccss-head {
+  background: #222;
+  padding: 10px;
+  color: white;
+  text-align: right;
+}
+.apccss-submit-css {
+  position: fixed;
+  top: 140px;
+  right: 21px;
+  z-index: 5;
+  
+}
+.apccss-message{
+     background: #fff;
+  border-left: 4px solid #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  margin-top: 10px;
+  padding: 1px 12px;
+    border-color: #7ad03a;
+}
+p.apccss-info {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.apccss-actions{
+    margin-top:10px;
+    
+}
+
+
+
+
+
+input.apccss-reset-button {
+  background: #222;
+}
+
+.apccss-top-button{
+  background: #222;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    float: right;
+    padding: 4px 8px;
+    text-decoration:none;
+    border:2px solid #fff;
+}
+
+a.apccss-top-button:hover {
+    background: white;
+    border: 2px solid #222;
+    color: #222 !important;
+}
+a.apccss-top-button:active, a.apccss-top-button:focus {
+    box-shadow: 0 0;
+    color: #fff;
+}
+
+.apccss-setting-header h1 {
+  float: left;
+}
+
+ul.apccss-setting-tabs{border-bottom:1px solid #ccc;}
+ul.apccss-setting-tabs li {
+  display: inline-block;
+  border: 1px solid;
+  padding: 10px;
+  width: 136px;
+  text-align: center;
+  background: rgb(0, 116, 162);
+  color: white;
+  margin:0 ;
+}
+
+ul.apccss-setting-tabs a{
+    text-decoration:none;
+    color:white;
+}
+
+li.apccss-active-tab,ul.apccss-setting-tabs li:hover {
+  background: #0D92C7 !important;
+}
+
+.apccss-title {
+   background: #222;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 16px;
+    padding: 0 15px;
+}
+
+/********* About us css ******/
+
+.about-desc-wrap {
+    float: left;
+    width: 65%;
+}
+
+.about-img-wrap {
+    float: right;
+    width: 35%;
+}
+
+.about-pinterest-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.about-title {
+    background: none;
+    border: medium none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.about-content {
+    color: #141414;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.about-desc-wrap {
+    padding: 0;
+    width: 100%;
+}
+
+.about-img-wrap img {
+    border: 5px solid #ededed;
+}
+
+.about-title > span {
+    color: #7b7b7b;
+    font-size: 18px;
+}
+
+.more-title {
+ font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    background: #222;
+    color: white;
+
+}
+
+.more-product > li {
+  float: left;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.more-product > li a{
+    text-decoration: none;
+}
+
+.prod-title {
+  color: #141414;
+  display: block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 20px auto;
+  text-decoration: none;
+  width: 40%;
+}
+
+.about-social > li {
+  float: left;
+  text-align: center;
+  width: 16.66%;
+}
+
+/*.about-social > li span{
+    background: url("../../images/counter/social-icon.png") no-repeat scroll 0 0;
+}*/
+
+.about-social .fa {
+  color: #ffffff;
+  display: block;
+  font-size: 35px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  -webkit-transition: background 0.5s ease 0s;
+  -moz-transition: background 0.5s ease 0s;
+  -ms-transition: background 0.5s ease 0s;
+  transition: background 0.5s ease 0s;
+  width: 50px;
+}
+
+.about-social a{
+    display: block;
+    text-decoration: none;
+}
+
+.about-social .fb .fa{
+    background: #3d5c99; 
+}
+
+.about-social .twt .fa{
+    background: #2aa8dd; 
+}
+
+.about-social .gp .fa{
+    background: #cc3838; 
+}
+
+.about-social .utube .fa{
+    background: #cc3535; 
+}
+
+.about-social .skype .fa{
+    background: #1eb2ef; 
+}
+
+.about-social .pin .fa{
+    background: #c8232f; 
+}
+
+.about-social .fb .fa:hover{
+    background: #354e80; 
+}
+
+.about-social .twt .fa:hover{
+    background: #2593c3; 
+}
+
+.about-social .gp .fa:hover{
+    background: #9f3535; 
+}
+
+.about-social .utube .fa:hover{
+    background: #b03434; 
+}
+
+.about-social .skype .fa:hover{
+    background: #118dc0; 
+}
+
+.about-social .pin .fa:hover{
+    background: #a6212b; 
+}
+
+
+.about-social span {
+  color: #141414;
+  display: block;
+  font-size: 15px;
+  line-height: 10px;
+  margin: 10px 0;
+}
+
+.about-social span .bold {
+  display: block;
+  font-weight: 700;
+}
+
+.save-seting {
+  padding: 0 20px 10px;
+}
+
+.social-iframe {
+  padding: 20px;
+}
+
+.social-iframe iframe {
+  width: 100% !important;
+}
+
+
+.about-content > ul {
+  list-style: outside none disc;
+  margin: 0 0 20px;
+  padding-left: 30px;
+}
+.social-more-wrap,.social-share-wrap {
+  border: 1px solid #222;
+  margin-top:10px;
+}
+input.apccss-top-button {
+  background: #222;
+}
+.apccss-setting-header > h3 {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+}
+.apccss-form-wraper .nav-tab-wrapper {
+    margin: 20px 0 !important;
+}

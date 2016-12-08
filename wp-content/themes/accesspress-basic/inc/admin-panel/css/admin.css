@@ -1,0 +1,75 @@
+ .inside .pplayout {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  margin-bottom: 30px;
+}
+
+ .inside .pplayout img {
+  display: block;
+  padding-left: 25px;
+}
+
+.team-thumb .remove-screenshot{
+	  background: #2ea2cc;
+  border:1px solid #0074a2;
+  webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 6px;
+    border-radius: 3px;
+    display: block;
+    width: 60px;
+    line-height: 26px;
+    height: 28px;
+    text-align: center;
+  margin-top: 10px;
+}
+
+.apbasic-header {
+  background: #5e5e5e;
+  padding: 10px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 4px solid #dc3522;
+  margin-bottom: 10px;
+}
+
+.apbasic-header .apbasic-logo {
+  float: left;
+}
+
+.apbasic-header .apbasic-title{
+  float: right;
+  color: #fff;
+  font-size: 20px;
+}
+
+.trans-row {
+  margin-bottom: 10px;
+}
+
+.trans-row label {
+  width: 20%;
+  float: left;
+}
+
+td.single-post-page  .trans-row span {
+  float: left;
+  display: inline-block;
+  width: 80%
+}
+
+td.single-post-page input{
+  width: 75% !important;
+}
+
+td.single-post-page input.posted_on_text,td.single-post-page input.by_text{
+  width: 25% !important;
+  display: inline-block;
+}
+
+td.single-post-page input.by_text{
+  margin-left: 10px;
+}

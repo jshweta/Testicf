@@ -1,0 +1,764 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marla v2.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-25 09:42:44+0000\n"
+"Last-Translator: ceslava <cristianeslava@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ marla
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Esta página no se encuentra."
+
+#: 404.php:19
+#@ marla
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "No se encuentra lo que buscas. Contacta con el autor o intenta hacer una búsqueda."
+
+#: 404.php:27
+#@ marla
+msgid "Most Used Categories"
+msgstr "Categorías más usadas."
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ marla
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Intenta los archivos mensuales. %1$s"
+
+#: archive.php:21
+#, php-format
+#@ marla
+msgid "Category Archives: %s"
+msgstr "Categoría: %s"
+
+#: archive.php:24
+#, php-format
+#@ marla
+msgid "Tag Archives: %s"
+msgstr "Etiqueta: %s"
+
+#: archive.php:31
+#, php-format
+#@ marla
+msgid "Author Archives: %s"
+msgstr "Entradas del autor: %s"
+
+#: archive.php:39
+#, php-format
+#@ marla
+msgid "Daily Archives: %s"
+msgstr "Archivos diarios: %s"
+
+#: archive.php:42
+#, php-format
+#@ marla
+msgid "Monthly Archives: %s"
+msgstr "Archivos mensuales: %s"
+
+#: archive.php:45
+#, php-format
+#@ marla
+msgid "Yearly Archives: %s"
+msgstr "Archivos anuales: %s"
+
+#: archive.php:48
+#@ marla
+msgid "Asides"
+msgstr "Asides"
+
+#: archive.php:51
+#@ marla
+msgid "Images"
+msgstr "Imágenes"
+
+#: archive.php:54
+#@ marla
+msgid "Videos"
+msgstr "Vídeos"
+
+#: archive.php:57
+#@ marla
+msgid "Quotes"
+msgstr "Citas"
+
+#: archive.php:60
+#@ marla
+msgid "Links"
+msgstr "Enlaces"
+
+#: archive.php:63
+#@ marla
+msgid "Archives"
+msgstr "Archivos"
+
+#: comments.php:29
+#, php-format
+#@ marla
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments.php:36
+#: comments.php:56
+#@ marla
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:37
+#: comments.php:57
+#@ marla
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments.php:38
+#: comments.php:58
+#@ marla
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más recientes &rarr;"
+
+#: comments.php:68
+#@ marla
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: content-page.php:18
+#: content-scroll.php:33
+#: content-single.php:16
+#: content.php:23
+#: image.php:61
+#@ marla
+msgid "Pages:"
+msgstr "Páginas"
+
+#: content-page.php:23
+#: content-scroll.php:68
+#: content-single.php:12
+#: content-single.php:52
+#: content.php:59
+#: image.php:53
+#: image.php:79
+#: inc/template-tags.php:71
+#: inc/template-tags.php:90
+#@ marla
+msgid "Edit"
+msgstr "Editar"
+
+#: content-scroll.php:30
+#: content.php:20
+#@ marla
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: content-scroll.php:43
+#: content-scroll.php:53
+#: content-single.php:27
+#: content-single.php:37
+#: content.php:34
+#: content.php:44
+#@ marla
+msgid ", "
+msgstr ", "
+
+#: content-scroll.php:47
+#: content-single.php:31
+#: content.php:38
+#, php-format
+#@ marla
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#: content-scroll.php:58
+#: content-single.php:42
+#: content.php:49
+#, php-format
+#@ marla
+msgid "Tagged %1$s"
+msgstr "Etiquetado %1$s"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: footer.php:58
+#@ marla
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Una plataforma de publicación semántica"
+
+#: footer.php:58
+#, php-format
+#@ marla
+msgid "Proudly powered by %s"
+msgstr "Gracias a %s"
+
+#: functions.php:64
+#@ marla
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: functions.php:144
+#@ marla
+msgid "Marla Theme"
+msgstr "Tema Marla"
+
+#: header.php:43
+#@ marla
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: header.php:45
+#@ marla
+msgid "search..."
+msgstr "buscar..."
+
+#: image.php:23
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
+
+#: image.php:24
+#@ marla
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:70
+#, php-format
+#@ marla
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Publica un comentario\">Publica un comentario</a> o un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:72
+#, php-format
+#@ marla
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Los comentarios están cerrados, pero puedes hacer un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:74
+#@ marla
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks están cerrados, pero puedes <a class=\"comment-link\" href=\"#respond\" title=\"Publicar un comentario\">publicar un comentario</a>."
+
+#: image.php:76
+#@ marla
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Los comentarios y los trackbacks están cerrados."
+
+#: inc/customizer.php:67
+#@ marla
+msgid "Social"
+msgstr "Social"
+
+#: inc/customizer.php:73
+#@ marla
+msgid "Single Content"
+msgstr "Entradas"
+
+#: inc/customizer.php:86
+#@ marla
+msgid "Footer"
+msgstr "Pié de página"
+
+#: inc/customizer.php:92
+#@ marla
+msgid "Typography"
+msgstr "Tipografía"
+
+#: inc/customizer.php:238
+#@ marla
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: inc/customizer.php:112
+#@ marla
+msgid "Show 3 related posts in slider at the end of a single post"
+msgstr "Mostrar 3 entradas relacionadas en un slider al final de una entrada."
+
+#: inc/customizer.php:157
+#@ marla
+msgid "Show Author Bio (must configure profile)"
+msgstr "Mostrar biografía del autor (debes configurarlo en el perfil)"
+
+#: inc/customizer.php:172
+#@ marla
+msgid "header background"
+msgstr "Imagen de fondo de la cabecera"
+
+#: inc/customizer.php:184
+#@ marla
+msgid "Background NOT full screen"
+msgstr "La imagen de fondo NO ocupará toda la pantalla"
+
+#: inc/customizer.php:195
+#@ marla
+msgid "Show Title in Header"
+msgstr "Mostrar título en la cabecera"
+
+#: inc/customizer.php:207
+#@ marla
+msgid "Show Tagline in Header"
+msgstr "Mostrar descripción en la cabecera"
+
+#: inc/customizer.php:219
+#@ marla
+msgid "Or choose one these backgrounds images"
+msgstr "O elige una de estás imágenes de fondo"
+
+#: inc/customizer.php:263
+#@ marla
+msgid "Choose a Google Web Fonts"
+msgstr "Elige una Google Web Fonts"
+
+#: inc/customizer.php:289
+#@ marla
+msgid "Font Size in %"
+msgstr "Tamaño del texto en %"
+
+#: inc/customizer.php:292
+#@ marla
+msgid "A number from 0 to 100"
+msgstr "Un número de 0 a 100"
+
+#: inc/customizer.php:340
+#@ marla
+msgid "Footer fixed"
+msgstr "Dejar el pié de página fijo"
+
+#: inc/customizer.php:356
+#@ marla
+msgid "Footer Text"
+msgstr "Texto del pié de página"
+
+#: inc/customizer.php:371
+#@ marla
+msgid "header background color"
+msgstr "Color de fondo de la cabecera"
+
+#: inc/customizer.php:383
+#@ marla
+msgid "footer background color"
+msgstr "Color de fondo del pié de página"
+
+#: inc/customizer.php:395
+#@ marla
+msgid "Link Color"
+msgstr "Color de los enlaces"
+
+#: inc/customizer.php:407
+#@ marla
+msgid "Hover Color"
+msgstr "Color de los enlaces (hover)"
+
+#: inc/customizer.php:421
+#@ marla
+msgid "Headings Color"
+msgstr "Color de los títulos (h1, h2, h3...)"
+
+#: inc/customizer.php:435
+#@ marla
+msgid "Footer Text Color"
+msgstr "Color del texto del pié de página"
+
+#: inc/customizer.php:454
+#@ marla
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:469
+#@ marla
+msgid "Facebook Fanpage"
+msgstr "Fanpage de Facebook"
+
+#: inc/customizer.php:482
+#@ marla
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:485
+#@ marla
+msgid "Full URL"
+msgstr "URL completa"
+
+#: inc/customizer.php:496
+#@ marla
+msgid "Pinterest user"
+msgstr "Usuario de Pinterest"
+
+#: inc/customizer.php:524
+#@ marla
+msgid "Instagram user"
+msgstr "Usuario de Instagram"
+
+#: inc/customizer.php:538
+#@ marla
+msgid "YouTube user"
+msgstr "Usuario de YouTube"
+
+#: inc/customizer.php:552
+#@ marla
+msgid "Vimeo user"
+msgstr "Usuario de Vimeo"
+
+#: inc/customizer.php:580
+#@ marla
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: inc/customizer.php:696
+#@ marla
+msgid "Header fixed and menu at the top"
+msgstr "Cabecera fija y menú arriba "
+
+#: inc/customizer.php:704
+#@ marla
+msgid "Display twitter & FB widgets in header"
+msgstr "Mostrar los widgets de twitter & FB en cabecera"
+
+#: inc/customizer.php:718
+#@ marla
+msgid "Display social icons in footer"
+msgstr "Mostrar iconos sociales en el pié de página"
+
+#: inc/customizer.php:733
+#@ marla
+msgid "nav color background"
+msgstr "Color de fondo del menú de navegación"
+
+#: inc/customizer.php:745
+#@ marla
+msgid "nav color background item"
+msgstr "Color de fondo de los elementos del menú"
+
+#: inc/customizer.php:757
+#@ marla
+msgid "nav color text"
+msgstr "Color del texto del menú"
+
+#: inc/extras.php:66
+#, php-format
+#@ marla
+msgid "Page %s"
+msgstr "Página %s"
+
+#: inc/template-tags.php:34
+#@ marla
+msgid "Post navigation"
+msgstr "Navegación de la entrada"
+
+#: inc/template-tags.php:38
+#@ marla
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+#@ marla
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:44
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entradas anteriores"
+
+#: inc/template-tags.php:48
+#@ marla
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entradas más recientes <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:71
+#@ marla
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:81
+#, php-format
+#@ marla
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">opina:</span>"
+
+#: inc/template-tags.php:87
+#, php-format
+#@ marla
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s en %2$s"
+
+#: inc/template-tags.php:94
+#@ marla
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: inc/template-tags.php:166
+#, php-format
+#@ marla
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Publicado en <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:172
+#, php-format
+#@ marla
+msgid "View all posts by %s"
+msgstr "Ver todas las entradas de %s"
+
+#: inc/widgets.php:15
+#@ marla
+msgid "Single Post After Content"
+msgstr "Después del contenido de una entrada"
+
+#: inc/widgets.php:23
+#@ marla
+msgid "Single Post Before Content"
+msgstr "Antes del contenido de una entrada"
+
+#: inc/widgets.php:7
+#@ marla
+msgid "Home"
+msgstr "Página de inicio"
+
+#: no-results.php:13
+#@ marla
+msgid "Nothing Found"
+msgstr "No se encuentra"
+
+#: no-results.php:19
+#, php-format
+#@ marla
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Comienza aquí</a>."
+
+#: no-results.php:23
+#@ marla
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos pero no hay nada publicado en esos términos. Inténtalo por favor de nuevo con otras palabras."
+
+#: no-results.php:28
+#@ marla
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que buscas. Quizás el buscador pueda ayudar."
+
+#: search.php:16
+#, php-format
+#@ marla
+msgid "Search Results for: %s"
+msgstr "Resultado de búsqueda para: %s"
+
+#: searchform.php:9
+#@ marla
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:10
+#@ marla
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
+
+#: searchform.php:11
+#@ marla
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: slider-related-posts.php:15
+#@ marla
+msgid "Related posts "
+msgstr "Entradas relacionadas "
+
+#: social.php:16
+#@ marla
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: author-bio.php:3
+#@ marla
+msgid "Author: "
+msgstr "Autor: "
+
+#: inc/customizer.php:59
+#@ marla
+msgid "Skins"
+msgstr "Estilos"
+
+#: inc/customizer.php:320
+#@ marla
+msgid "Choose a starter style"
+msgstr "Elige un estilo para empezar"
+
+#: image.php:42
+#, php-format
+#@ marla
+msgid "Full size: <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a>, published on <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Tamaño completo: <a href=\"%3$s\" title=\"Enlace a imagen original\">%4$s &times; %5$s</a>, publicada en <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: footer.php:60
+#, php-format
+#@ marla
+msgid "Marla WP Theme by %1$s."
+msgstr "Marla WP Theme por %1$s."
+
+#: inc/custom-header.php:63
+#@ marla
+msgctxt "header image description"
+msgid "Marla"
+msgstr "Marla"
+
+#: inc/customizer.php:98
+#@ marla
+msgid "Custom CSS & code"
+msgstr "CSS y código personalizado"
+
+#: inc/customizer.php:250
+#@ marla
+msgid "Extra code in <head> like Google Analytics"
+msgstr "Código extra en <head> como Google Analytics o favicon"
+
+#: social.php:16
+#@ marla
+msgid "Subscribe via email"
+msgstr "Suscríbete vía email"
+
+#: inc/customizer.php:458
+#@ marla
+msgid "eg: ceslava"
+msgstr "ej.: ceslava"
+
+#: inc/customizer.php:472
+#@ marla
+msgid "eg: ceslavacom"
+msgstr "ej.: ceslavacom"
+
+#: inc/customizer.php:137
+#@ marla
+msgid "Show metadata under the date on the left side of single post"
+msgstr "Muestra medatatos bajo la fecha en la parte izquierda de las entradas"
+
+#: inc/customizer.php:141
+#@ marla
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/customizer.php:142
+#@ marla
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/customizer.php:143
+#@ marla
+msgid "None"
+msgstr "Ninguno"
+
+#: inc/customizer.php:79
+#@ marla
+msgid "3 options for email subscription"
+msgstr "3 opciones de suscripción por email"
+
+#: inc/customizer.php:599
+#@ marla
+msgid "FeedBurner user"
+msgstr "Usuario de FeedBurner"
+
+#: inc/customizer.php:602
+#@ marla
+msgid "Just the last part of your feedburner URL, displays a link in the footer if active and the subscription email form on single posts. Leave blank to show another option"
+msgstr "Sólo la última parte de la URL de FeedBurner, mostrará un icono en el pié de página si están activos, el badge con nº de suscriptores y el formulario de suscripción por email. Déjalo en blanco si usas Jetpack u otro servicio"
+
+#: inc/customizer.php:615
+#@ marla
+msgid "RSS url"
+msgstr "RSS url"
+
+#: inc/customizer.php:618
+#@ marla
+msgid "Display just a link in the footer if active to your RSS different from FeedBurner"
+msgstr "Muestra sólo un icono en el pié de página si están activos. Si usas FeedBurner no usar."
+
+#: inc/customizer.php:628
+#@ marla
+msgid "Use the default RSS 2.0 feed URL from WordPress and display a link to it on footer"
+msgstr "Utiliza el enlace al RSS 2.0 feed por defecto de WP, mostrará icono en el pié de página si están activos"
+
+#: inc/customizer.php:646
+#@ marla
+msgid "Jetpack: Display subscription email form on single posts. Only if you have installed the plugin Jetpack"
+msgstr "Jetpack: Muestra el formulario de suscripción por email en las entradas. Sólo activar si ya has instalado el plugin Jetpack"
+
+#: inc/customizer.php:660
+#@ marla
+msgid "Email form subscription code different from Jetpack or FeedBurner. It will be wrapped with <div id=\"marla-email-form\"> in case you need some extra CSS"
+msgstr "Coloca aquí el código de cualquier otro servicio de suscripción por email distinto a Jetpack o FB. Lo que insertes irá dentro de <div id=\"marla-email-form\"> en el caso de que necesites añadir CSS extra."
+
+#: inc/customizer.php:124
+#@ marla
+msgid "Right sidebar on single posts when the screen is wider than 1000px"
+msgstr "Sidebar derecho en las entradas visible cuando la resolución de la pantalla tiene un ancho de 1000px o superior"
+
+#: inc/customizer.php:566
+#@ marla
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: inc/widgets.php:31
+#@ marla
+msgid "Right sidebar Single Posts (need activation)"
+msgstr "Sidebar derecho (requiere activación en las opciones del tema)"
+
+#: inc/customizer.php:304
+#@ marla
+msgid "Height in px"
+msgstr "Altura en píxeles"
+
+#: inc/customizer.php:307
+#@ marla
+msgid "Just the number, no need of px"
+msgstr "Sólo el número, no hace falta que pongas px"
+
+#: inc/customizer.php:681
+#@ marla
+msgid "Post/Page editor styles"
+msgstr "Estilos CSS para el editor de entradas y páginas"
+
+#: inc/customizer.php:510
+#@ marla
+msgid "Show Pinterest button over images"
+msgstr "Mostar botón de Pinterest sobre las imágenes"
+

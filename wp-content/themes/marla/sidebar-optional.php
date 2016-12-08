@@ -1,0 +1,1 @@
+<div id="sidebar"><?php if ( dynamic_sidebar('sidebar-right-single') ) : else : endif; ?></div>

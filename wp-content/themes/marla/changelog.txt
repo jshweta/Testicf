@@ -1,0 +1,30 @@
+﻿#######################  Changelog ######################
+= 2.0.5 = 11/21/14
+* Fix issue with videos
+= 2.0.2 = 02/25/14
+* Added customization for enabling or disabling Pinterest Hover button
+* Added hungarian translation
+= 2.0 = 11/12/13
+* Added customization for header´s height
+* Better performance
+* Now the images are loaded before showing
+* Nice loading on infinite scroll
+= 1.5.1 = 02/10/13
+* Fixed LinkedIn URL in case is not a spanish profile 
+* Added an extra right sidebar in single posts 
+= 1.1.1 = 02/10/13
+* Better responsiveness and issues design
+* Better design format pots in homepage
+= 1.0.8.1 = 08/31/13
+* Added support to shortcodes in widgets
+* Added email suscription widget options: FeedBurner, JetPack or custom
+* Show only tagline in header
+= 1.0.6 = 08/29/13
+* Choose between tags, categories and none under the date on the left side of single post
+* Added rel=Author to Google Plus Profile
+* Fixed LinkedIn social profile
+* Added this changelog file
+= 1.0.4 = 08/28/13
+* Added to WordPress Themes repository
+= 1.0 = 08/24/13
+* Initial Release

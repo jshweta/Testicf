@@ -1,0 +1,533 @@
+
+
+/*----- Large Desktop -----*/
+
+@media(max-width: 1250px){
+
+	.ap-basic-slider-wrapper .bx-controls-direction a{
+		display: none;
+	}
+}
+
+@media (max-width: 1200px){
+
+	.ap-container {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	body.boxed-layout{
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.slider-image-container{
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 1024px){
+
+.secondary-right{
+               display: none !important;             
+}
+
+.secondary-left{
+               display: none !important;             
+}
+
+.menu-email {
+               display: none !important;
+}
+.menu-facebook {
+               display: none !important;
+}
+.menu-twitter {
+               display: none !important;
+}
+
+.secondmenumargin {
+                   margin-left: 0px;
+}
+
+
+a[href*="responses"]:last-child{
+             float: left;
+}
+
+a[href*="new-speakingup"]:last-child{
+              float: left;
+}
+
+a[href*="features"]:last-child{
+              float: left;
+}
+
+.site-branding {
+              display: none;
+}
+.menu-wrapper {
+               height:65px;
+               background:  none repeat scroll 0 0 #E5AC53;
+               background-image: url("/mobile-logo/mobile-logo1.png");
+               background-repeat: no-repeat;
+               background-position: 2% 60%;
+               background-size: 280px 50px;
+}
+
+.menu-trigger {
+                float: right;
+                display: block;
+                padding: 12px 6px 0px 0px;
+                width: 32px;
+                height: auto;
+                margin: 13px 10px 0px 0px;
+                cursor: pointer;
+	}
+
+	.menu-trigger span{
+		display: block;
+		width: 100%;
+		height: 2px;
+		margin-bottom: 5px;
+		background: #fff;
+	}
+
+	.main-navigation{
+		display: none;
+	}
+
+	.menu-trigger span:last-child{
+		margin-bottom: 0;
+	}
+
+	.main-navigation-responsive ul{
+		margin: 0;
+	}
+
+	.main-navigation-responsive ul li{
+		display: block;
+		list-style-type: none;
+                background: #444444;
+		position: relative;
+                border-bottom: 1px solid #FFF;
+                height: 41px;
+	}
+
+	.main-navigation-responsive ul li.current-menu-item,
+	.main-navigation-responsive ul li:hover{
+                background: #3d3d3d;
+	}
+
+	.main-navigation-responsive ul li a{
+		display: block;
+		border-bottom: 1px solid  #fff;
+		padding: 0 15px;
+		line-height: 40px;
+		color: #fff !important;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu{
+		display: none;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu li{
+		background: #fff;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu li a{
+		color: inherit;
+		border-bottom: 1px solid  #e4e4e4;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu li a:hover,
+	.main-navigation-responsive ul > li > .sub-menu li.current-menu-item > a{
+		color: #c62c1a;
+	}
+
+	.search-icon{
+		display:none;
+	}
+
+	.sub-toggle {
+		/*background: none repeat scroll 0 0 #000;*/
+		border:1px solid #fff;
+		color: #ffffff;
+		display: block;
+		height: 25px;
+		line-height: 19px;
+		position: absolute;
+		right: 10px;
+		text-align: center;
+		top: 7px;
+		width: 25px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu > li > .sub-toggle{
+		background: none repeat scroll 0 0 #dc3522;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu > li > .sub-menu a{
+		padding: 0 40px;
+		position: relative;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu > li > .sub-menu a:after{
+		position: absolute;
+		left: 25px;
+		top: 0;
+		content: "\f105";
+		font-family: "FontAwesome";
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu > li > .sub-menu > li > .sub-menu a{
+		padding: 0 60px;
+	}
+
+	.main-navigation-responsive ul > li > .sub-menu > li > .sub-menu > li > .sub-menu a:after{
+		padding: 0 20px;
+	}
+
+
+}
+
+
+/*----- Potrait tablet to Landscape and Desktop -----*/
+@media(max-width: 979px){
+	
+
+}
+
+
+@media(max-width: 768px){
+
+	#testimonial-container {
+		width: 40%;
+	}
+
+	#services-container {
+		width: 51%;
+	}
+
+	.service-post-wrap {
+		width: 47%;
+		margin-bottom: 25px;
+	}
+
+	.featured-footer-wrap{
+		margin-right: 0;
+	}
+
+	.featured-footer {
+		width: 30%;
+	}
+
+	.featured-footer-1 {
+		margin-bottom: 3%;
+	}
+
+	.featured-footer-4{
+		float: none;
+		width: 50%;
+	}
+
+	/*-------------- Blog------------*/
+	.entry-footer-wrapper {
+		width: 70%;
+	}
+
+
+}
+
+
+/*----- Landscape Phones to Potrait tablet -----*/
+@media(max-width: 767px){
+
+
+	.caption-title{
+		margin-top: 0;
+	}
+
+	.caption-description p{
+		display: none;
+	}
+
+	.feature-post-wrap, .service-post-wrap{
+		width: 47%;
+	}
+
+	.widget_accesspress_basic_icon_text{
+		width: 47%;
+	}
+
+	#toggle-container, #featured-page-container, #testimonial-container,
+	.testimonials-wrap .testimonial-image-wrap, .testimonial, #services-container,
+	.featured-footer,.copyright-info, .cta-desc-wrap, .footer-socials{
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	#featured-page-container{
+		margin: 30px 0 0 0;
+	}
+
+	.ap-container #testimonial-container h3.widget-title {
+		text-align: center;
+	}
+
+	.testimonial {
+		margin-top: 15px;
+		text-align: center;
+
+	}
+
+	.service-post-wrapper-block {
+		margin: 0 0 0 -3%;
+	}
+
+	.testimonial-image-wrap, .cta-btn-wrap, .footer-socials{
+		margin-right: 0;
+	}
+
+	.service-post-wrap {
+		margin-bottom: 30px;
+	}
+
+	.copyright-info, .footer-socials{
+		text-align: center;
+	}
+
+	.cta-btn-wrap{
+		float: none;
+		width: 22%;
+	}
+
+	/*--------- Blog --------------*/
+	.both-sidebar #primary-wrap #primary, .left-sidebar #primary,
+	.both-sidebar #secondary, .left-sidebar #secondary.secondary-left, 
+	.right-sidebar #secondary, .both-sidebar #primary-wrap, .right-sidebar #primary,
+	.both-sidebar #primary-wrap #secondary.secondary-left{
+		float: none;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.both-sidebar #secondary, .left-sidebar #secondary.secondary-left, 
+	.right-sidebar #secondary{
+		margin-bottom: 0;
+	}
+
+	/*----------- Contact Us-----------*/
+	.map-container iframe {
+		width: 100%;
+		float: none;
+		margin-right:0;
+		height: auto;
+	}
+
+	.form-container{
+		width: 100%;
+		float: none;
+	}
+
+}
+
+
+/*----- Landscape Phones to Potrait tablet and Down----- */
+@media(max-width: 640px){
+
+	.header-text-only  .site-branding, .header-text-logo  .site-branding,
+	.header-text-only  .right-top-head, .header-text-logo .right-top-head ,
+	.header-text-only  .social-icons-head ul, .header-text-logo  .social-icons-head ul,
+	.header-text-logo .social-container{
+		float: none;
+		text-align: center;
+	}
+
+	.header-text-only  .site-branding, .header-text-logo .site-branding{
+		margin-bottom: 15px;
+	}
+
+	.header-text-only  .right-top-head .call-us, .header-text-logo .right-top-head .call-us,
+	.header-text-only .social-container{
+		text-align: center;
+	}
+
+
+}
+
+@media(max-width: 580px){
+
+	.slider-image-container, .slider-caption-container {
+		float: none;
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.slider-caption-container {
+		text-align: center;
+		width: 100%;
+		margin-top: 35px;
+	}
+
+	.caption-title{
+		line-height: 30px;
+	}
+
+	.slide_readmore-button{
+		margin-top: 10px;
+	}
+
+	.icon-text-block-wrapper, .feature-post-wrap-block, .service-post-wrapper-block{
+		margin: 0 0 0 0;
+	}
+
+	.icon-text-block-wrapper .widget {
+		margin-bottom: 7%;
+	}
+
+	.widget_accesspress_basic_icon_text,
+	.feature-post-wrap, .service-post-wrap {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.cta-desc-wrap, #featured-page-container {
+		text-align: center;
+	}
+
+	.cta_title {
+		margin-bottom: 10px;
+	}
+
+	.cta-btn-wrap {
+		margin: 30px auto 0;
+		width: 32%;
+	}
+
+	.feat-page-content{
+		margin: 20px 0 35px;
+	}
+
+	#services-container h3.widget-title {
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	/*-------------- Blog------------*/
+	.category-blogs .blog-feature-image{
+		display: block;
+		float: none !important;
+		margin: 16px 0px 0 0 !important;
+		width: 100%;
+	}
+
+
+
+}
+
+/*----- Landscape phones and Down -----*/
+@media(max-width: 480px){
+
+
+	.header-text-logo .header-logo-container{
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.boxed-layout .header-text-only .header-text-container h1.site-title{
+		border-right: none;
+		margin-right: 0;
+		padding-right: 0;
+		display: block;
+	}
+
+	.entry-footer-wrapper {
+		width: 100%;
+	}
+
+	article.hentry .entry-footer .readmore {
+		display: block;
+		float: none;
+		margin: 20px 0 10px;	
+	}
+
+	.error-404 .page-title .oops{
+		font-size: 160px;
+	}
+
+}
+
+@media(max-width: 360px){
+
+	.header-logo-only .site-branding,
+	.header-logo-only .right-top-head, .header-logo-only .social-icons-head ul,
+	.header-logo-only .social-container {
+		float: none;
+		text-align: center;
+	}
+
+	.header-logo-only .right-top-head .call-us{
+		text-align: center;
+	}
+
+	.header-text-only .header-text-container h1.site-title{
+		border-right: none;
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	.caption-title{
+		font-size: 40px;
+	}
+
+	.caption-description h2{
+		font-size: 22px;
+	}
+
+	.slide_readmore-button{
+		font-size: 14px;
+	}
+
+
+	.error-404 .page-title .oops {
+		font-size: 100px;
+	}
+
+	.error-404 .page-content .err{
+		width: 100%;
+		height: 342px;
+		background-size: 100%;
+		padding-right: 90px;
+		padding-top: 60px;
+	}
+	.error-404 .page-content .err .err-404 {
+		font-size: 65px;
+	}
+
+	.error-404 .error{
+		font-size: 30px;
+	}
+
+}
+
+
+/*----- Landscape Phones -----*/
+@media(max-width: 320px){
+
+	.copyright-info{
+		font-size: 12px;
+	}
+
+	.error-404 .page-content .err{
+		padding-right: 78px;
+		padding-top: 45px;
+	}
+
+}
+

@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marla v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-26 09:44:19+0000\n"
+"Last-Translator: ceslava <cristianeslava@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ marla
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+#@ marla
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:27
+#@ marla
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ marla
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+#@ marla
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:24
+#, php-format
+#@ marla
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+#@ marla
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+#@ marla
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+#@ marla
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:45
+#, php-format
+#@ marla
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:48
+#@ marla
+msgid "Asides"
+msgstr ""
+
+#: archive.php:51
+#@ marla
+msgid "Images"
+msgstr ""
+
+#: archive.php:54
+#@ marla
+msgid "Videos"
+msgstr ""
+
+#: archive.php:57
+#@ marla
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:60
+#@ marla
+msgid "Links"
+msgstr ""
+
+#: archive.php:63
+#@ marla
+msgid "Archives"
+msgstr ""
+
+#: author-bio.php:3
+#@ marla
+msgid "Author: "
+msgstr ""
+
+#: comments.php:29
+#, php-format
+#@ marla
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:36
+#: comments.php:56
+#@ marla
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:57
+#@ marla
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+#@ marla
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+#@ marla
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18
+#: content-scroll.php:29
+#: content-single.php:16
+#: content.php:23
+#: image.php:61
+#@ marla
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-scroll.php:65
+#: content-single.php:12
+#: content-single.php:52
+#: content.php:59
+#: image.php:53
+#: image.php:79
+#: inc/template-tags.php:71
+#: inc/template-tags.php:90
+#@ marla
+msgid "Edit"
+msgstr ""
+
+#: content-scroll.php:26
+#: content.php:20
+#@ marla
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: content-scroll.php:40
+#: content-scroll.php:50
+#: content-single.php:27
+#: content-single.php:37
+#: content.php:34
+#: content.php:44
+#@ marla
+msgid ", "
+msgstr ""
+
+#: content-scroll.php:44
+#: content-single.php:31
+#: content.php:38
+#, php-format
+#@ marla
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content-scroll.php:55
+#: content-single.php:42
+#: content.php:49
+#, php-format
+#@ marla
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content-scroll.php:62
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "Leave a comment"
+msgstr ""
+
+#: content-scroll.php:62
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "1 Comment"
+msgstr ""
+
+#: content-scroll.php:62
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:48
+#@ marla
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:48
+#, php-format
+#@ marla
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:64
+#@ marla
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:144
+#@ default
+msgid "Marla Theme"
+msgstr ""
+
+#: header.php:43
+#@ marla
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:45
+#@ marla
+msgid "search..."
+msgstr ""
+
+#: image.php:23
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:24
+#@ marla
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:70
+#, php-format
+#@ marla
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:72
+#, php-format
+#@ marla
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:74
+#@ marla
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:76
+#@ marla
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: inc/customizer.php:59
+#@ marla
+msgid "Skins"
+msgstr ""
+
+#: inc/customizer.php:67
+#@ marla
+msgid "Social"
+msgstr ""
+
+#: inc/customizer.php:73
+#@ marla
+msgid "Single Content"
+msgstr ""
+
+#: inc/customizer.php:80
+#@ marla
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:86
+#@ marla
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:201
+#@ marla
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:106
+#@ marla
+msgid "Show 3 related posts in slider at the end of a single post"
+msgstr ""
+
+#: inc/customizer.php:120
+#@ marla
+msgid "Show Author Bio (must configure profile)"
+msgstr ""
+
+#: inc/customizer.php:135
+#@ marla
+msgid "header background"
+msgstr ""
+
+#: inc/customizer.php:147
+#@ marla
+msgid "Background NOT full screen"
+msgstr ""
+
+#: inc/customizer.php:158
+#@ marla
+msgid "Show Title in Header"
+msgstr ""
+
+#: inc/customizer.php:170
+#@ marla
+msgid "Show Tagline in Header"
+msgstr ""
+
+#: inc/customizer.php:182
+#@ marla
+msgid "Or choose one these backgrounds images"
+msgstr ""
+
+#: inc/customizer.php:226
+#@ marla
+msgid "Choose a Google Web Fonts"
+msgstr ""
+
+#: inc/customizer.php:252
+#@ marla
+msgid "Font Size in %"
+msgstr ""
+
+#: inc/customizer.php:255
+#@ marla
+msgid "A number from 0 to 100"
+msgstr ""
+
+#: inc/customizer.php:267
+#@ marla
+msgid "Choose a starter style"
+msgstr ""
+
+#: inc/customizer.php:287
+#@ marla
+msgid "Footer fixed"
+msgstr ""
+
+#: inc/customizer.php:303
+#@ marla
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:318
+#@ marla
+msgid "header background color"
+msgstr ""
+
+#: inc/customizer.php:330
+#@ marla
+msgid "footer background color"
+msgstr ""
+
+#: inc/customizer.php:342
+#@ marla
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:354
+#@ marla
+msgid "Hover Color"
+msgstr ""
+
+#: inc/customizer.php:368
+#@ marla
+msgid "Headings Color"
+msgstr ""
+
+#: inc/customizer.php:382
+#@ marla
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer.php:397
+#@ marla
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:401
+#@ marla
+msgid "eg: ceslava"
+msgstr ""
+
+#: inc/customizer.php:412
+#@ marla
+msgid "Facebook Fanpage"
+msgstr ""
+
+#: inc/customizer.php:415
+#@ marla
+msgid "eg: ceslavacom"
+msgstr ""
+
+#: inc/customizer.php:425
+#@ marla
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:428
+#@ marla
+msgid "Full URL"
+msgstr ""
+
+#: inc/customizer.php:439
+#@ marla
+msgid "Pinterest user"
+msgstr ""
+
+#: inc/customizer.php:453
+#@ marla
+msgid "Instagram user"
+msgstr ""
+
+#: inc/customizer.php:467
+#@ marla
+msgid "YouTube user"
+msgstr ""
+
+#: inc/customizer.php:481
+#@ marla
+msgid "Vimeo user"
+msgstr ""
+
+#: inc/customizer.php:495
+#@ marla
+msgid "LinkedIn user"
+msgstr ""
+
+#: inc/customizer.php:509
+#@ marla
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:526
+#@ marla
+msgid "Feedburner user"
+msgstr ""
+
+#: inc/customizer.php:529
+#@ marla
+msgid "the last part of your feedburner URL"
+msgstr ""
+
+#: inc/customizer.php:550
+#@ marla
+msgid "Header fixed and menu at the top"
+msgstr ""
+
+#: inc/customizer.php:558
+#@ marla
+msgid "Display twitter & FB widgets in header"
+msgstr ""
+
+#: inc/customizer.php:572
+#@ marla
+msgid "Display social icons in footer"
+msgstr ""
+
+#: inc/customizer.php:587
+#@ marla
+msgid "nav color background"
+msgstr ""
+
+#: inc/customizer.php:599
+#@ marla
+msgid "nav color background item"
+msgstr ""
+
+#: inc/customizer.php:611
+#@ marla
+msgid "nav color text"
+msgstr ""
+
+#: inc/extras.php:66
+#, php-format
+#@ marla
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:34
+#@ marla
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:38
+#@ marla
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:39
+#@ marla
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:44
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:48
+#@ marla
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:71
+#@ marla
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+#@ marla
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:87
+#, php-format
+#@ marla
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:94
+#@ marla
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:166
+#, php-format
+#@ marla
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: inc/template-tags.php:172
+#, php-format
+#@ marla
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/widgets.php:15
+#@ marla
+msgid "Single Post After Content"
+msgstr ""
+
+#: inc/widgets.php:23
+#@ marla
+msgid "Single Post Before Content"
+msgstr ""
+
+#: inc/widgets.php:7
+#@ marla
+msgid "Home"
+msgstr ""
+
+#: no-results.php:13
+#@ marla
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+#@ marla
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+#@ marla
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:28
+#@ marla
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ marla
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:9
+#@ marla
+msgctxt "assistive text"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:10
+#@ marla
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:11
+#@ marla
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: slider-related-posts.php:15
+#@ marla
+msgid "Related posts "
+msgstr ""
+
+#: social.php:7
+#@ marla
+msgid "Subscribe"
+msgstr ""
+
+#: footer.php:50
+#, php-format
+#@ marla
+msgid "Marla WP Theme by %1$s."
+msgstr ""
+
+#: image.php:42
+#, php-format
+#@ marla
+msgid "Full size: <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a>, published on <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: inc/custom-header.php:63
+#@ marla
+msgctxt "header image description"
+msgid "Marla"
+msgstr ""
+
+#: inc/customizer.php:92
+#@ marla
+msgid "Custom CSS & code"
+msgstr ""
+
+#: inc/customizer.php:213
+#@ marla
+msgid "Extra code in <head> like Google Analytics"
+msgstr ""
+
+#: social.php:7
+#@ marla
+msgid "Subscribe via email"
+msgstr ""
+

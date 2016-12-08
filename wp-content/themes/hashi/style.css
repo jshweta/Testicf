@@ -1,0 +1,1035 @@
+/*
+Theme Name: Hashi
+Description: A very lightweight, script-free, multilanguage theme with a menu on the left and an optional sidebar on the right. On smaller screens, the layout becomes vertical. The theme supports any language that WordPress itself has been translated into, because it only uses text strings that come with WordPress.
+Version: 1.1.5
+Author: Tomasz Lewoc
+License: GNU General Public License v2 or any later version
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, two-columns, three-columns, right-sidebar, custom-header, custom-menu, white, blue, sticky-post, featured-images, editor-style, threaded-comments
+
+Copyright 2014 Tomasz Lewoc
+
+All of the theme's PHP and CSS files, as well as the file screenshot.png, are licensed under the GNU General Public License, version 2 or any later version:
+http://www.gnu.org/licenses/gpl-2.0.html
+
+Other files are licensed as follows:
+* hbg.jpg is released into the public domain;
+* bbg.png, black_list_bullet.png, blue_list_bullet.png, close_menu.png, open_menu.png, sbg.png, wbg-smaller.png and wbg.png are ineligible for copyright because they are trivial.
+*/
+
+
+html, body, div, header, hgroup, nav, footer, article, aside, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, table, tr, th, td, dl, dt, dd, address, pre {
+	margin: 0; padding: 0; border-style: none;
+}
+
+a {
+	text-decoration: inherit;
+}
+
+a, ul.mainnav {
+	color: #41669E;
+	font-weight: bold;
+}
+
+html {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 13px;
+	color: #333;
+	background: white url('bbg.png') 0px 20px repeat-x;
+}
+
+body {
+	position: relative;
+	width: 915px;
+	margin: 0 auto;
+	background: url('wbg.png') no-repeat top left;
+}
+
+hgroup {
+	display: block;
+}
+
+main {
+	display: block;
+	padding: 0;
+	margin: 0 30px 60px 30px;
+	width: 655px;
+	float: left;
+	line-height: 150%;
+	text-align: justify;
+	font-family: Tahoma, sans-serif;
+}
+
+article {
+	width: 655px;
+	margin-top: 48px;
+}
+
+article:first-of-type {
+	margin-top: 12px;
+}
+
+article:first-of-type.has-breadcrumbs {
+	margin-top: 6px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #202020;
+	text-align: left;
+}
+
+h2 {
+	margin-bottom: 6px;
+	font-size: 15px;
+	color: #404040;
+	text-align: left;
+}
+
+h3 {
+	margin-bottom: 6px;
+	font-size: 14.5px;
+	color: #404040;
+	text-align: left;
+}
+
+h4 {
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #404040;
+	text-align: left;
+}
+
+h5 {
+	margin-bottom: 4px;
+	font-size: 13.5px;
+	color: #404040;
+	text-align: left;
+}
+
+h6 {
+	margin-bottom: 3px;
+	font-size: 13px;
+	color: #646464;
+	text-align: left;
+}
+
+.post-title {
+	clear: both;
+	padding-bottom: 2px;
+	margin-bottom: 0;
+	word-wrap: break-word;
+}
+
+.post-title a {
+	color: inherit;
+	font-weight: inherit;
+}
+
+span.breadcrumbs {
+	font-size: 11px;
+	padding-bottom: 4px;
+	text-align: left;
+}
+
+span.breadcrumbs a {
+	font-weight: inherit;
+}
+
+span.date {
+	display: block;
+	margin: 0 0 8px 0;
+	color: #646464;
+	font-size: 12px;
+}
+
+.post-title, span.date, span.post-breadcrumbs {
+	border-left: 2px solid #e0e0e0;
+	padding-left: 8px;
+}
+
+.post-title.sticky, .post-title.sticky+span.date {
+	border-left-color: #41669E;
+}
+
+span.date a {
+	color: inherit;
+}
+
+span.date a:hover {
+	color: black;
+}
+
+span.date a.secondary-permalink {
+	font-weight: inherit;
+	color: inherit;
+}
+
+.more-link {
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+	margin-top: -10px;
+	clear: both;
+}
+
+span.date+.more-link { /* no content before the more tag? */
+	margin-top: 0;
+}
+
+.link-to-comments {
+	text-align: right;
+	font-size: 12px;
+	margin-top: -10px;
+	clear: both;
+}
+
+p, ul, ol, table, dl, address, div.wp-caption, pre, blockquote {
+	margin-bottom: 12px;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table th, table td {
+	border: 1px solid #646464;
+	text-align: left;
+}
+
+table th, table td {
+	padding: 8px;
+}
+
+table {
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	padding: 0 10px;
+	text-align: left;
+}
+
+ol {
+	list-style-position: outside;
+	padding: 0 10px;
+	text-align: left;
+}
+
+ul li, ol li {
+	padding-bottom: 6px;
+	margin-left: 1em;
+}
+
+ul li:last-of-type, ol li:last-of-type {
+	padding-bottom: 0;
+}
+
+ul ul, ul ol, ol ul, ol ol { /* nested lists */
+	margin: 6px 0 0 10px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+blockquote {
+	font-family: Cambria, serif;
+	font-style: italic;
+	padding: 0 16px;
+	margin-left: 12px; margin-right: 12px;
+	font-size: 14px;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 4px;
+	width: 100%;
+	text-align: right;
+	font-size: 13.5px;
+	font-style: normal;
+}
+
+dt, dd {
+	margin-bottom: 6px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 12px; margin-right: 12px;
+}
+
+dt:last-child, dd:last-child {
+	margin-bottom: 0;
+}
+
+pre {
+	margin-left: 12px; margin-right: 12px;
+	background: #f6f6f6;
+	padding: 8px;
+	overflow: auto;
+}
+
+.page-switcher {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.page-switcher p {
+	padding: 8px 0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img.alignleft, img.alignright, img.aligncenter, img.alignnone {
+	padding: 1px;
+	border: 2px solid #DEE2E7;
+}
+
+/* add a bit more breathing room to headings in pages and non-floating images */
+article.page>h1:not(:first-of-type), article.page>h2, article.page>h3, article.page>h4, article.page>h5, article.page>h6 {
+	margin-top: 12px;
+}
+
+article>p>img.aligncenter:first-child, article>p>a:first-child>img.aligncenter:first-child {
+	margin-top: 8px;
+}
+
+article>p+p>img.aligncenter:first-child, article>p+p>a:first-child>img.aligncenter:first-child,
+article>ol+p>img.aligncenter:first-child, article>ol+p>a:first-child>img.aligncenter:first-child,
+article>ul+p>img.aligncenter:first-child, article>ul+p>a:first-child>img.aligncenter:first-child {
+	margin-top: 20px;
+}
+
+article.page>p+h1, article.page>p+h2,
+article.page>ol+h1, article.page>ol+h2,
+article.page>ul+h1, article.page>ul+h2 {
+	margin-top: 16px;
+}
+
+article.page>p+h3, article.page>p+h4, article.page>p+h5, article.page>p+h6,
+article.page>ol+h3, article.page>ol+h4, article.page>ol+h5, article.page>ol+h6,
+article.page>ul+h3, article.page>ul+h4, article.page>ul+h5, article.page>ul+h6 {
+	margin-top: 14px;
+}
+/* end breathing room section */
+
+a:hover>img.alignleft:only-child, a:hover>img.alignright:only-child, a:hover>img.aligncenter:only-child, a:hover>img.alignnone:only-child {
+	border-color: #a0a0a0;
+}
+
+img.alignleft {
+	float: left;
+	margin: 0.75em 16px 12px 0;
+}
+
+img.alignright {
+	float: right;
+	margin: 0.75em 0 12px 16px;
+}
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.wp-caption {
+	background: #f6f6f6;
+	padding-bottom: 5px;
+	max-width: 100%;
+}
+
+div.wp-caption.aligncenter {
+	margin-left: auto; margin-right: auto;
+}
+
+div.wp-caption.alignleft {
+	float: left;
+	margin: 0 12px 12px 0;
+}
+
+div.wp-caption.alignright{
+	float: right;
+	margin: 0 0 12px 12px;
+}
+
+div.wp-caption img {
+	margin: 5px;
+}
+
+div.wp-caption p.wp-caption-text {
+	margin: 0 5px 5px 5px;
+	text-align: center;
+}
+
+/* gallery - the styles below are only meant for the default, 3-column layout */
+
+dl.gallery-item {
+	margin: 10px 5px 12px 5px;
+	width: 33%;
+	max-width: 31%;
+	text-align: center;
+	float: left;
+}
+
+dl.gallery-item dt img {
+	padding: 1px;
+	border: 2px solid #DEE2E7;
+}
+
+dl.gallery-item dd {
+	margin: 0;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+
+.gallery-caption {
+	/* the captions render fine as it is! */
+}
+
+/* comments - general layout */
+
+h2#comments {
+	margin-top: 32px;
+	clear: both;
+}
+
+div#respond {
+	margin-top: 18px;
+}
+
+ol.commentlist {
+	margin: 0;
+	padding: 0;
+}
+
+ol.commentlist * {
+	margin-left: 0; margin-right: 0;
+}
+
+ol.commentlist p {
+	margin-bottom: 10px;
+}
+
+ol.commentlist div.comment-meta.commentmetadata+* { /* just to prevent comment body from creeping beside the photo if the user decreases font size significantly */
+	clear: both;
+}
+
+ol.commentlist ol, ol.commentlist ul { /* fix for lists in comment body */
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+ol.commentlist ol ol, ol.commentlist ul ol, ol.commentlist ol ul, ol.commentlist ul ul { /* fix for nested lists in comment body */
+	margin-bottom:0;
+}
+
+ol.commentlist li ul.children, ol.commentlist li ol.children {
+	padding-left: 12px;
+	margin-bottom: 0;
+}
+
+ol.commentlist, ol.commentlist ul.children {
+	list-style-type: none;
+}
+
+ol.commentlist div.comment-body {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 12px;
+	background: #f6f6f6;
+	padding: 0.75em 1em 0.5em 1em;
+}
+
+ol.commentlist div.comment-body div.reply {
+	margin-top: 0.25em;
+}
+
+li.comment.bypostauthor div.comment-body {
+	border-left: 2px solid #41669E;
+}
+
+textarea#comment {
+	max-width: 100%;
+}
+
+/* comments - participants' name plates */
+
+ol.commentlist div.comment-author img.avatar.photo {
+	float: left;
+	padding: 0.1em 0 0.4em 0;
+	margin-right: 8px;
+	margin-bottom: 0.25em;
+}
+
+ol.commentlist div.comment-meta.commentmetadata {
+	margin-bottom: 0.25em;
+}
+
+/* header */
+
+header#header-main {
+	position: relative; top: 20px;
+	width: 915px;
+	height: 200px;
+	background-color: #41669E;
+	background-image: url('hbg.jpg');
+	background-position: center center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin-bottom: 45px; /* actual spacing will be 25 because of relative position offset */
+	text-align: left;
+	overflow: hidden;
+}
+
+header#header-main #blog-title {
+	margin: 0;
+	position: absolute; top: 48px; left: 64px; right: 64px;
+	font-size: 32px;
+	line-height: 150%;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px #181818, 3px 2px 4px #333;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+header#header-main #blog-tagline {
+	margin: 0;
+	position: absolute; bottom: 48px; left: 64px; right: 64px;
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: normal;
+	text-shadow: 2px 1px 1px #181818, 3px 2px 4px #222;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+header#header-main a#home-link {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* left (navigation) column */
+
+nav#lcol {
+	float: left;
+	width: 200px;
+	padding-bottom: 8px;
+	margin-bottom: 60px;
+}
+
+nav#lcol a.menu-toggle {
+	display: none;
+}
+
+ul#mainnav {
+	font-size: 14px;
+}
+	
+ul#mainnav ul {
+	font-size: 13px;
+}
+
+ul#mainnav, ul#mainnav ul {
+	margin: 0;
+	padding: 0;
+	line-height: 125%;
+	list-style-type: none;
+}
+
+ul#mainnav li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+ul#mainnav a {
+	padding: 0.6em 8px 0.6em 18px;
+	display: block;
+	background-image: url('blue_list_bullet.png');
+	background-repeat: no-repeat;
+	background-position: 6px 1.05em;
+}
+
+ul#mainnav a:hover {
+	background-image: url('black_list_bullet.png');
+}
+
+ul#mainnav ul li {
+	border-bottom: none;
+}
+
+ul#mainnav ul a {
+	padding-top: 0;
+	padding-left: 26px;
+	background-position: 14px 0.45em;
+}
+
+ul#mainnav ul ul a {
+	padding-left: 38px;
+	background-position: 26px 0.45em;
+}
+
+ul#mainnav ul ul ul a {
+	padding-left: 50px;
+	background-position: 38px 0.45em;
+}
+
+ul#mainnav ul ul ul ul a {
+	padding-left: 62px;
+	background-position: 50px 0.45em;
+}
+
+/* right (sidebar) column */
+
+aside#rcol {
+	float: right;
+	width: 184px;
+	padding: 8px 8px 30px 8px;
+	background: #f9f9f9 url('sbg.png') left bottom repeat-x;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+aside#rcol>* {
+	font-weight: normal;
+}
+
+aside#rcol ul {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+
+aside#rcol>ul, aside#rcol>div {
+	margin-bottom: 12px;
+	padding: 3px 0 8px 0;
+}
+
+aside#rcol>select {
+	margin-top: 4px;
+	margin-bottom: 23px;
+	max-width: 180px;
+	display: block;
+}
+
+aside#rcol ul li {
+	margin: 0;
+	padding: 3px 6px;
+}
+
+aside#rcol ul ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: circle;
+	list-style-position: outside;
+	border-bottom: none;
+}
+
+aside#rcol ul ul li {
+	margin-left: 2em;
+	padding: 6px 0 0 1px;
+}
+
+aside#rcol ul ul ul li {
+	margin-left: 1em;
+}
+
+div#calendar_wrap {
+	text-align: center;
+}
+
+table#wp-calendar {
+	margin: 0 auto;
+	background: #fff;
+	border-style: none;
+}
+
+table#wp-calendar th, table#wp-calendar td {
+	padding: 2px;
+	border-style: none;
+}
+
+table#wp-calendar caption {
+	margin-bottom: 4px;
+}
+
+aside#rcol form#searchform {
+	margin-bottom: 12px;
+	padding: 3px 0 8px 0;
+}
+
+aside#rcol form#searchform input#s {
+	margin-top: 4px; margin-bottom: 4px;
+}
+
+aside#rcol>*:last-child {
+	margin-bottom: 0;
+}
+
+/* footer */
+
+footer {
+	clear: both;
+	border-top: 1px solid #ccc;
+	width: 891px;
+	padding: 16px 12px 24px 12px;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+/* misc */
+
+a:hover {
+	color: #000000;
+}
+
+/* responsiveness! */
+
+@media (max-width: 914px) {
+
+	body {
+		width: 715px;
+		margin: 0 auto;
+		background-image: url('wbg-smaller.png');
+	}
+	
+	html {
+		background-size: 1px 156px;
+	}
+	
+	header#header-main {
+		width: 715px;
+		height: 156px;
+	}
+
+	header#header-main #blog-title {
+		top: 38px; left: 50px; right: 50px;
+		font-size: 25px;
+	}
+
+	header#header-main #blog-tagline {
+		bottom: 38px; left: 50px; right: 50px;
+		font-size: 19px;
+	}
+
+	nav#lcol {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	nav#lcol>* {
+		margin-left: 16px; margin-right: 16px;
+	}
+	
+	aside#rcol {
+		background-image: none;
+		padding: 10px 7px;
+		border: 1px solid #e0e0e0;
+	}
+	
+	footer {
+		width: 691px;
+	}
+	
+	/* add 1px to all font sizes, excluding menu; the footer only gets half the bonus */
+
+	span.breadcrumbs {
+		font-size: 12px;
+	}
+	
+	span.date, .more-link, .link-to-comments {
+		font-size: 13px;
+	}
+	
+	footer {
+		font-size: 12.5px;
+	}
+
+	html {
+		font-size: 14px;
+	}
+
+	blockquote {
+		font-size: 15px;
+	}
+	
+	blockquote cite {
+		font-size: 14.5px;
+	}
+	
+	h6 {
+		font-size: 14px;
+	}
+	
+	h5 {
+		font-size: 14.5px;
+	}
+	
+	h4 {
+		font-size: 15px;
+	}
+
+	h3 {
+		font-size: 15.5px;
+	}
+
+	h2 {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 17px;
+	}
+	
+	/* menu */
+	
+	main {
+		clear: left;
+	}
+	
+	nav#lcol>* {
+		display: none;
+	}
+
+	nav#lcol a.menu-toggle {
+		font-size: 15px;
+		margin-top: 0; margin-bottom: 4px;
+		padding: 0.25em 0.25em 0.25em 1.35em;
+		line-height: 150%;
+		background-image: url('close_menu.png');
+		background-position: left center;
+		background-size: auto 1.15em;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid #848484;
+	}
+
+	nav#lcol a.menu-toggle#menu-toggle-open {
+		background-image: url('open_menu.png');
+		background-size: auto 1.25em;
+		display: block;
+	}
+
+	nav#lcol span#m1:target~* {
+		display: block;
+	}
+
+	nav#lcol span#m1:target~a#menu-toggle-open {
+		display: none;
+	}
+
+}
+
+@media (max-width: 714px) {
+	
+	/* layout */
+	
+	html, body {
+		background-image: none;
+	}
+
+	body, header#header-main, footer {
+		width: 100%;
+	}
+	
+	body {
+		margin: 0;
+	}
+	
+	header#header-main {
+		top: 0;
+		height: 120px;
+	}
+	
+	header#header-main, nav#lcol {
+		margin-bottom: 12px;
+	}
+
+	header#header-main #blog-title {
+		top: 24px; left: 16px; right: 16px;
+		font-size: 20px;
+		line-height: 150%;
+		font-weight: bold;
+		text-shadow: 2px 1px 1px #181818, 3px 2px 4px #333;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	header#header-main #blog-tagline {
+		bottom: 24px; left: 16px; right: 16px;
+		font-size: 16px;
+		line-height: 150%;
+		text-shadow: 2px 1px 1px #181818, 3px 2px 4px #222;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	main {
+		clear: both;
+		width: 100%;
+		/* fix to prevent extra large images and captions divs from inflating the div, if a browser doesn't support box-sizing (very unlikely in a mobile browser), the layout will be slightly disrupted but passable */
+		margin-left: 0; margin-right: 0;
+		padding-left: 20px; padding-right: 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	article {
+		width: 100%;
+	}
+
+	p, ul, ol, table, dl, address, div.wp-caption {
+		margin-left: 0; margin-right: 0;
+	}
+	
+	dl.gallery-item {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		max-width: 33%;
+	}
+	
+	dl.gallery-item dd {
+		padding-left: 3px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	aside#rcol {
+		clear: both;
+		margin-left: 0; margin-right: 0;
+		width: 100%;
+		padding-left: 20px; padding-right: 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-bottom: 48px;
+	}
+	
+	footer {
+		padding-left: 20px; padding-right: 20px; padding-bottom: 20px;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	nav#lcol a.menu-toggle {
+		font-size: 16px;
+	}
+	
+	/* add 2px (total) to all font sizes, excluding menu; the footer only gets half the bonus */
+
+	span.breadcrumbs {
+		font-size: 13px;
+	}
+	
+	span.date .more-link, .link-to-comments {
+		font-size: 14px;
+	}
+	
+	footer {
+		font-size: 13px;
+	}
+
+	html {
+		font-size: 15px;
+	}
+
+	blockquote {
+		font-size: 16px;
+	}
+	
+	blockquote cite {
+		font-size: 15.5px;
+	}
+	
+	h6 {
+		font-size: 15px;
+	}
+	
+	h5 {
+		font-size: 15.5px;
+	}
+	
+	h4 {
+		font-size: 16px;
+	}
+
+	h3 {
+		font-size: 16.5px;
+	}
+
+	h2 {
+		font-size: 17px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+	
+	/* sidebar tweaks */
+	aside#rcol select {
+		max-width: 100%;
+	}
+	
+}
+
+/* header background tweak */
+@media (max-width: 549px) {
+	header#header-main {
+		background-size: auto 100%;
+	}
+}
+
+/* make room for sidebar if it's enabled, or expand the main section if the menu and sidebar are both gone */
+@media (min-width: 715px) {
+	main.with-sidebar, main.with-sidebar>article {
+		width: 455px;
+	}
+	
+	main.only-column, main.only-column>article {
+		width: 655px;
+	}
+}
+
+@media (min-width: 915px) {
+	
+	main.only-column, main.only-column>article {
+		width: 855px;
+	}
+}
+

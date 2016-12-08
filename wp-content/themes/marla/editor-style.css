@@ -1,0 +1,14 @@
+@import url( 'style.css' );
+html .mceContentBody {  
+    max-width: 510px;  
+    padding: 10px;  
+	margin: 0 auto;-moz-box-shadow: 0 1px 3px rgba(0,0,0,1);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,1);
+box-shadow: 0 1px 3px rgba(0,0,0,1);
+overflow:hidden;
+border:1px solid #CCC;
+box-sizing:border-box;
+background-color:#FFF
+} 
+html .mceContentBody iframe, html .mceContentBody object, html .mceContentBody embed {margin-left:-10px; max-width:510px}
+html .mceContentBody img.alignnone {width:510px;margin-left:-10px;}

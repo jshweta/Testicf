@@ -1,0 +1,755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marla v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-04 18:44:49+0000\n"
+"Last-Translator: marine <robig@robig.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ marla
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppá! Nem található ilyen oldal."
+
+#: 404.php:19
+#@ marla
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Úgy tűnik semmi nincs ezen a helyen. Talán inkább próbáld ki valamelyik lentebbi linket , vagy egy gyorskeresés?"
+
+#: 404.php:27
+#@ marla
+msgid "Most Used Categories"
+msgstr "Leggyakrabban használt kategóriák"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ marla
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Próbáld meg a havi arhívum bontásban %1$"
+
+#: archive.php:21
+#, php-format
+#@ marla
+msgid "Category Archives: %s"
+msgstr "Kategória Archívum: %"
+
+#: archive.php:24
+#, php-format
+#@ marla
+msgid "Tag Archives: %s"
+msgstr "Címke arhívum: %"
+
+#: archive.php:31
+#, php-format
+#@ marla
+msgid "Author Archives: %s"
+msgstr "Szerző archívum: %"
+
+#: archive.php:39
+#, php-format
+#@ marla
+msgid "Daily Archives: %s"
+msgstr "Napi arhívum: %"
+
+#: archive.php:42
+#, php-format
+#@ marla
+msgid "Monthly Archives: %s"
+msgstr "Havi arhívum: %"
+
+#: archive.php:45
+#, php-format
+#@ marla
+msgid "Yearly Archives: %s"
+msgstr "Éves arhívum: %"
+
+#: archive.php:48
+#@ marla
+msgid "Asides"
+msgstr "Elkülönített részek"
+
+#: archive.php:51
+#@ marla
+msgid "Images"
+msgstr "Képek"
+
+#: archive.php:54
+#@ marla
+msgid "Videos"
+msgstr "Videók"
+
+#: archive.php:57
+#@ marla
+msgid "Quotes"
+msgstr "Idézetek"
+
+#: archive.php:60
+#@ marla
+msgid "Links"
+msgstr "Linkek"
+
+#: archive.php:63
+#@ marla
+msgid "Archives"
+msgstr "Arhívum"
+
+#: author-bio.php:3
+#@ marla
+msgid "Author: "
+msgstr "Szerző:"
+
+#: comments.php:29
+#, php-format
+#@ marla
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s gondolat a &ldquo;%2$s&rdquo;"
+
+#: comments.php:36
+#: comments.php:56
+#@ marla
+msgid "Comment navigation"
+msgstr "Kommentár navigáció"
+
+#: comments.php:37
+#: comments.php:57
+#@ marla
+msgid "&larr; Older Comments"
+msgstr "&larr; régebbi hozzászólások"
+
+#: comments.php:38
+#: comments.php:58
+#@ marla
+msgid "Newer Comments &rarr;"
+msgstr "Frissebb hozzászólások &rarr;"
+
+#: comments.php:68
+#@ marla
+msgid "Comments are closed."
+msgstr "Hozzászólások lezárva."
+
+#: content-page.php:18
+#: content-scroll.php:33
+#: content-single.php:16
+#: content.php:23
+#: image.php:61
+#@ marla
+msgid "Pages:"
+msgstr "Oldalak:"
+
+#: content-page.php:23
+#: content-scroll.php:68
+#: content-single.php:12
+#: content-single.php:52
+#: content.php:59
+#: image.php:53
+#: image.php:79
+#: inc/template-tags.php:71
+#: inc/template-tags.php:90
+#@ marla
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: content-scroll.php:30
+#: content.php:20
+#@ marla
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tovább olvasás <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content-scroll.php:43
+#: content-scroll.php:53
+#: content-single.php:27
+#: content-single.php:37
+#: content.php:34
+#: content.php:44
+#@ marla
+msgid ", "
+msgstr ","
+
+#: content-scroll.php:47
+#: content-single.php:31
+#: content.php:38
+#, php-format
+#@ marla
+msgid "Posted in %1$s"
+msgstr "Közzétéve  %1$"
+
+#: content-scroll.php:58
+#: content-single.php:42
+#: content.php:49
+#, php-format
+#@ marla
+msgid "Tagged %1$s"
+msgstr "Címkézve  %1$"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "Leave a comment"
+msgstr "Van véleményed?"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "1 Comment"
+msgstr "1 Hozzászólás"
+
+#: content-scroll.php:65
+#: content-single.php:49
+#: content.php:56
+#@ marla
+msgid "% Comments"
+msgstr "% Hozzászólás"
+
+#: footer.php:58
+#@ marla
+msgid "Click here to read more.."
+msgstr "Klikkelj ide a bejegyzés további olvasásához.."
+
+#: footer.php:58
+#@ default
+msgid "Your browser has a digital fingerprint."
+msgstr ""
+
+#: footer.php:61
+#@ marla
+#@ default
+msgid "Sic Parvis Magna"
+msgstr "Sic Parvis Magna"
+
+#: functions.php:64
+#@ marla
+msgid "Primary Menu"
+msgstr "Elsődleges Menü"
+
+#: functions.php:144
+#@ marla
+msgid "Marla Theme"
+msgstr "Marla Sablon"
+
+#: header.php:43
+#@ marla
+msgid "Skip to content"
+msgstr "Ugorj a tartalomra"
+
+#: header.php:45
+#@ marla
+msgid "search..."
+msgstr "keresés..."
+
+#: image.php:23
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Előző"
+
+#: image.php:24
+#@ marla
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Következő <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:42
+#, php-format
+#@ marla
+msgid "Full size: <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a>, published on <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Teljes méret: <a href=\"%3$s\" title=\"Hivatkozás a teljes méretre\">%4$s &times; %5$s</a>, közzétéve <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:70
+#, php-format
+#@ marla
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Szólj hozzá</a> trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:72
+#, php-format
+#@ marla
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "A hozzászólások lehetősége lezárva, de hagyhatsz egy trackbacket: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:74
+#@ marla
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackback lezárva, de <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">írhatsz hozzászólást</a>."
+
+#: image.php:76
+#@ marla
+msgid "Both comments and trackbacks are currently closed."
+msgstr "A hozzászólások és trackback jelenleg lezárva. "
+
+#: inc/custom-header.php:63
+#@ marla
+msgctxt "header image description"
+msgid "Marla"
+msgstr "Marla"
+
+#: inc/customizer.php:59
+#@ marla
+msgid "Skins"
+msgstr "Felületek"
+
+#: inc/customizer.php:67
+#@ marla
+msgid "Social"
+msgstr "Szociális"
+
+#: inc/customizer.php:73
+#@ marla
+msgid "Single Content"
+msgstr "Egyéni tartalom"
+
+#: inc/customizer.php:79
+#@ marla
+msgid "3 options for email subscription"
+msgstr "3 opció az email feliratkozásra"
+
+#: inc/customizer.php:86
+#@ marla
+msgid "Footer"
+msgstr "Lábjegyzet"
+
+#: inc/customizer.php:92
+#@ marla
+msgid "Typography"
+msgstr "Tipográfia"
+
+#: inc/customizer.php:98
+#@ marla
+msgid "Custom CSS & code"
+msgstr "Egyedi CSS & kód"
+
+#: inc/customizer.php:112
+#@ marla
+msgid "Show 3 related posts in slider at the end of a single post"
+msgstr "Mutass 3 kapcsolódó hozzászólást a csúszkán minden egyedi hozzászólás végén."
+
+#: inc/customizer.php:124
+#@ marla
+msgid "Right sidebar on single posts when the screen is wider than 1000px"
+msgstr "Jobboldali oszlop az egyedi hozzászólásoknál, amikor a képernyő szélesebb 1000 pixelnél"
+
+#: inc/customizer.php:137
+#@ marla
+msgid "Show metadata under the date on the left side of single post"
+msgstr "Mutasson metaadatokat a dátum alatt a bal oldalon maz egyéni hozzászólásoknál"
+
+#: inc/customizer.php:141
+#@ marla
+msgid "Tags"
+msgstr "Címkék"
+
+#: inc/customizer.php:142
+#@ marla
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: inc/customizer.php:143
+#@ marla
+msgid "None"
+msgstr "Nincs"
+
+#: inc/customizer.php:157
+#@ marla
+msgid "Show Author Bio (must configure profile)"
+msgstr "Mutasd meg a szerző önéletrajzát (be kell állítani a profilt)"
+
+#: inc/customizer.php:172
+#@ marla
+msgid "header background"
+msgstr "fejléc háttér"
+
+#: inc/customizer.php:184
+#@ marla
+msgid "Background NOT full screen"
+msgstr "A háttér NEM teljes képernyő"
+
+#: inc/customizer.php:195
+#@ marla
+msgid "Show Title in Header"
+msgstr "Mutasd a Címet a Fejlécben"
+
+#: inc/customizer.php:207
+#@ marla
+msgid "Show Tagline in Header"
+msgstr "Mutasd az Alcímet a Fejlécben"
+
+#: inc/customizer.php:219
+#@ marla
+msgid "Or choose one these backgrounds images"
+msgstr "Vagy válaszd egyiket ezek közül a háttérképek közül"
+
+#: inc/customizer.php:238
+#@ marla
+msgid "Custom CSS"
+msgstr "Egyedi CSS"
+
+#: inc/customizer.php:250
+#@ marla
+msgid "Extra code in <head> like Google Analytics"
+msgstr "Extra kód a <head> -ben, mint a Google Analyticsben"
+
+#: inc/customizer.php:263
+#@ marla
+msgid "Choose a Google Web Fonts"
+msgstr "Válassz a Google Webes Betűkészlet közül"
+
+#: inc/customizer.php:289
+#@ marla
+msgid "Font Size in %"
+msgstr "Betűméret % "
+
+#: inc/customizer.php:292
+#@ marla
+msgid "A number from 0 to 100"
+msgstr "Szám 0 és 100 között"
+
+#: inc/customizer.php:304
+#@ marla
+msgid "Height in px"
+msgstr "Magasság pixelben"
+
+#: inc/customizer.php:307
+#@ marla
+msgid "Just the number, no need of px"
+msgstr "Csak a szám, nincs szükség pixelre"
+
+#: inc/customizer.php:320
+#@ marla
+msgid "Choose a starter style"
+msgstr "Válassz egy kezdő stílust"
+
+#: inc/customizer.php:340
+#@ marla
+msgid "Footer fixed"
+msgstr "Rögzített lábjegyzet"
+
+#: inc/customizer.php:356
+#@ marla
+msgid "Footer Text"
+msgstr "Lábjegyzet Szöveg"
+
+#: inc/customizer.php:371
+#@ marla
+msgid "header background color"
+msgstr "Fejléc háttér szín"
+
+#: inc/customizer.php:383
+#@ marla
+msgid "footer background color"
+msgstr "Lábjegyzet háttér szín"
+
+#: inc/customizer.php:395
+#@ marla
+msgid "Link Color"
+msgstr "Link szín"
+
+#: inc/customizer.php:407
+#@ marla
+msgid "Hover Color"
+msgstr "Hurok szín"
+
+#: inc/customizer.php:421
+#@ marla
+msgid "Headings Color"
+msgstr "Fejlécszöveg szín"
+
+#: inc/customizer.php:435
+#@ marla
+msgid "Footer Text Color"
+msgstr "Lábjegyzet Szöveg Szín"
+
+#: inc/customizer.php:450
+#@ marla
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:454
+#@ marla
+msgid "eg: ceslava"
+msgstr "pl: ceslava"
+
+#: inc/customizer.php:465
+#@ marla
+msgid "Facebook Fanpage"
+msgstr "Fb Fanpage"
+
+#: inc/customizer.php:468
+#@ marla
+msgid "eg: ceslavacom"
+msgstr "eg: ceslavacom"
+
+#: inc/customizer.php:478
+#@ marla
+msgid "Google Plus"
+msgstr "Google Plusz"
+
+#: inc/customizer.php:481
+#@ marla
+msgid "Full URL"
+msgstr "Teljes URL"
+
+#: inc/customizer.php:492
+#@ marla
+msgid "Pinterest user"
+msgstr "Pinterest felhasználó"
+
+#: inc/customizer.php:506
+#@ marla
+msgid "Instagram user"
+msgstr "Instagram felhasználó"
+
+#: inc/customizer.php:520
+#@ marla
+msgid "YouTube user"
+msgstr "YouTube felhasználó"
+
+#: inc/customizer.php:534
+#@ marla
+msgid "Vimeo user"
+msgstr "Vimeo felhasználó"
+
+#: inc/customizer.php:548
+#@ marla
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: inc/customizer.php:562
+#@ marla
+msgid "Email"
+msgstr "Email"
+
+#: inc/customizer.php:581
+#@ marla
+msgid "FeedBurner user"
+msgstr "FeedBurner felhasználó"
+
+#: inc/customizer.php:584
+#@ marla
+msgid "Just the last part of your feedburner URL, displays a link in the footer if active and the subscription email form on single posts. Leave blank to show another option"
+msgstr "Csak a feedburner URL utolsó része, megjelenik egy link a lábrészben ha aktív, és az email feliratkozás sablonja egy önálló hozzászólásban. Hagyd üresen, ha másik opciót szeretnél látni."
+
+#: inc/customizer.php:597
+#@ marla
+msgid "RSS url"
+msgstr "RSS URL"
+
+#: inc/customizer.php:600
+#@ marla
+msgid "Display just a link in the footer if active to your RSS different from FeedBurner"
+msgstr "Csak egy linket mutass a lábrészben, ha az aktív RSS-ed és különbözik a FeedBurnertől."
+
+#: inc/customizer.php:610
+#@ marla
+msgid "Use the default RSS 2.0 feed URL from WordPress and display a link to it on footer"
+msgstr "Használd az alap RSS 2.0 URL-t a Wordpressből és jelenítsd meg a linket a lábrészben."
+
+#: inc/customizer.php:628
+#@ marla
+msgid "Jetpack: Display subscription email form on single posts. Only if you have installed the plugin Jetpack"
+msgstr "Jetpack: Jelenítsd meg az email feliratkozást az önálló posztokban. Csak akkor, ha telepítetted a Jetpack plugin-t."
+
+#: inc/customizer.php:642
+#@ marla
+msgid "Email form subscription code different from Jetpack or FeedBurner. It will be wrapped with <div id=\"marla-email-form\"> in case you need some extra CSS"
+msgstr "Az Email sablon feliratkozási kódja különbözik a Jetpacktől és a FeedBurnertől. Becsomagolásra kerül a  <div id=\"marla-email-form\"> arra az esetre, ha szükséged van extra CSS-re."
+
+#: inc/customizer.php:663
+#@ marla
+msgid "Post/Page editor styles"
+msgstr "Poszt/Oldal szerkesztői stílusok"
+
+#: inc/customizer.php:678
+#@ marla
+msgid "Header fixed and menu at the top"
+msgstr "Rögzített fejléc és menü az oldal tetején."
+
+#: inc/customizer.php:686
+#@ marla
+msgid "Display twitter & FB widgets in header"
+msgstr "Jelenítsd meg a twitter & FB widgeteket a fejlécben"
+
+#: inc/customizer.php:700
+#@ marla
+msgid "Display social icons in footer"
+msgstr "Jelenítsd meg a szociális hálózati ikonokat a lábrészben"
+
+#: inc/customizer.php:715
+#@ marla
+msgid "nav color background"
+msgstr "nav szín háttér"
+
+#: inc/customizer.php:727
+#@ marla
+msgid "nav color background item"
+msgstr "nav szín háttér elem"
+
+#: inc/customizer.php:739
+#@ marla
+msgid "nav color text"
+msgstr "nav szín szöveg"
+
+#: inc/extras.php:66
+#, php-format
+#@ marla
+msgid "Page %s"
+msgstr "Oldal %"
+
+#: inc/template-tags.php:34
+#@ marla
+msgid "Post navigation"
+msgstr "Poszt navigáció"
+
+#: inc/template-tags.php:38
+#@ marla
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+#@ marla
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:44
+#@ marla
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span>Régebbi jegyzetek"
+
+#: inc/template-tags.php:48
+#@ marla
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Újabb jegyzetek<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:71
+#@ marla
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: inc/template-tags.php:81
+#, php-format
+#@ marla
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "% <span class=\"says\">mondja:</span>"
+
+#: inc/template-tags.php:87
+#, php-format
+#@ marla
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s ezen %2$s"
+
+#: inc/template-tags.php:94
+#@ marla
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzászólásod moderációra vár."
+
+#: inc/template-tags.php:166
+#, php-format
+#@ marla
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Közzétéve <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:172
+#, php-format
+#@ marla
+msgid "View all posts by %s"
+msgstr "Mutass minden jegyzetet %"
+
+#: inc/widgets.php:7
+#@ marla
+msgid "Home"
+msgstr "Főoldal"
+
+#: inc/widgets.php:15
+#@ marla
+msgid "Single Post After Content"
+msgstr "Önálló Jegyzet a Tartalom Után"
+
+#: inc/widgets.php:23
+#@ marla
+msgid "Single Post Before Content"
+msgstr "Önálló Jegyzet a Tartalom Előtt"
+
+#: inc/widgets.php:31
+#@ marla
+msgid "Right sidebar Single Posts (need activation)"
+msgstr "Jobboldali oszlopon Önálló Jegyzetek (aktiváció szükséges)"
+
+#: no-results.php:13
+#@ marla
+msgid "Nothing Found"
+msgstr "Nem találtunk semmit."
+
+#: no-results.php:19
+#, php-format
+#@ marla
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Készen állsz az első jegyzeted publikálására? <a href=\"%1$s\">Kezdd el itt</a>."
+
+#: no-results.php:23
+#@ marla
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sajnáljuk, de semmi találat a keresett szövegre. Kérlek próbáld újra a keresést más kulcsszavakkal."
+
+#: no-results.php:28
+#@ marla
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Úgy tűnik nem találjuk amit keresel. Talán a kereső segít."
+
+#: search.php:16
+#, php-format
+#@ marla
+msgid "Search Results for: %s"
+msgstr "Keresési találatok: %"
+
+#: searchform.php:9
+#@ marla
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Keresés"
+
+#: searchform.php:10
+#@ marla
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Keresés &hellip;"
+
+#: searchform.php:11
+#@ marla
+msgctxt "submit button"
+msgid "Search"
+msgstr "Keresés"
+
+#: slider-related-posts.php:15
+#@ marla
+msgid "Related posts "
+msgstr "Kapcsolódó Jegyzetek"
+
+#: social.php:16
+#@ marla
+msgid "Subscribe via email"
+msgstr "Iratkozz fel emailben"
+
+#: social.php:16
+#@ marla
+msgid "Subscribe"
+msgstr "Feliratkozás"
+
